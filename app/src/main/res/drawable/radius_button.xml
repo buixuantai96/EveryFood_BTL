@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    - Bo tròn đều 4 góc trên-phải-dưới-trái 50dp-->
+    <corners
+        android:radius="5dp"
+        />
+    <!--
+    - Không định màu => Có màu trong suốt
+    -->
+
+    <!-- - Định màu viền của button Đăng Nhập -->
+    <stroke android:color="@color/colorwhite"
+            android:width="2dp"
+        ></stroke>
+
+</shape>

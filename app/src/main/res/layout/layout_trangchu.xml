@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundTrangChu"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/chuf"
+            android:tint="@color/colorwhite"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_odau_angi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_background_radiobuttongroup_trangchu"
+            >
+
+            <RadioButton
+                android:id="@+id/rdODau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/odau"
+                android:button="@android:color/transparent"
+                android:background="@drawable/custom_radio_odau"
+                android:padding="10dp"
+                android:checked="true"
+                android:textColor="@drawable/change_text_radio_trangchu"
+            />
+
+            <RadioButton
+                android:id="@+id/rdAnGi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/angi"
+                android:button="@android:color/transparent"
+                android:background="@drawable/custom_radio_angi"
+                android:padding="10dp"
+                android:textColor="@drawable/change_text_radio_trangchu"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imgThemQuanAn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/add"
+            android:tint="@color/colorwhite"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/khungchuafragment"-->
+        <!--&gt;</FrameLayout>-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_trangchu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorwhite"
+            android:drawableTop="@drawable/home_grey_dam"
+            android:padding="5dp"
+            android:text="Trang chủ"
+            android:textAllCaps="false"
+            android:textColor="@color/colorXamDenNhat"
+            android:textSize="12sp"
+
+            />
+
+        <Button
+            android:id="@+id/btnSaved"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorwhite"
+            android:drawableTop="@drawable/bookmark_grey_dam"
+            android:padding="5dp"
+            android:text="Đã lưu"
+            android:textAllCaps="false"
+            android:textColor="@color/colorXamDenNhat"
+            android:textSize="12sp"
+
+            />
+
+        <Button
+            android:id="@+id/btnSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorwhite"
+            android:drawableTop="@drawable/setting_grey_dam"
+            android:padding="5dp"
+            android:text="Cài đặt"
+            android:textAllCaps="false"
+            android:textColor="@color/colorXamDenNhat"
+            android:textSize="12sp"
+
+            />
+
+        <Button
+            android:id="@+id/btnSettingTrangChu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorwhite"
+            android:drawableTop="@drawable/notification_grey_dam"
+            android:padding="5dp"
+            android:text="Thông báo"
+            android:textAllCaps="false"
+            android:textColor="@color/colorXamDenNhat"
+            android:textSize="12sp"
+
+            />
+
+        <Button
+            android:id="@+id/btnTaiKhoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorwhite"
+            android:drawableTop="@drawable/user_grey_dam"
+            android:padding="5dp"
+            android:text="Tài khoản"
+            android:textAllCaps="false"
+            android:textColor="@color/colorXamDenNhat"
+            android:textSize="12sp"
+
+            />
+
+
+        />
+
+
+    </LinearLayout>
+
+</LinearLayout>

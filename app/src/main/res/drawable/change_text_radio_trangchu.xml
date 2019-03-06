@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- - Khi RadioButton được check, thì sẽ đổi màu chữ từ trắng sang
+    đen -->
+    <item android:state_checked="true"
+        android:color="@color/colorBlack">
+
+    </item>
+
+    <!-- - Khi RadioButton không được check, thì sẽ giữ nguyên màu mặc
+    định của chữ là màu trắng -->
+    <item android:color="@color/colorwhite">
+    </item>
+</selector>

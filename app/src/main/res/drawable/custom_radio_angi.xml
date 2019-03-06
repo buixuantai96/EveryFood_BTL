@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    - 2 trạng thái của RadioButton là được chọn, và không được chọn
+    => Cần phải có 2 item, tương đương với 2 kiểu Drawable khác nhau
+    tương ứng với các trạng thái của 1 RadioButton -->
+
+    <!--
+    - Tượng trưng cho trạng thái RadioButton được Checked-->
+    <item android:state_checked="true">
+        <shape
+            android:shape="rectangle"
+
+            >
+            <solid android:color="@color/colorwhite"/>
+            <stroke android:width="2dp" android:color="@color/colorwhite"/>
+            <!--
+            - Bo góc ở Top-Left và Bottom-Left -->
+            <corners android:topRightRadius="5dp"
+                android:bottomRightRadius="5dp"></corners>
+        </shape>
+    </item>
+
+    <!--
+    - Tượng trưng cho trạng thái RadioButton mặc định -->
+    <item>
+        <shape
+            android:shape="rectangle"
+
+            >
+            <solid android:color="@color/colorPrimaryDark"/>
+            <stroke android:width="2dp" android:color="@color/colorwhite"/>
+            <!--
+            - Bo góc ở Top-Left và Bottom-Left -->
+            <corners android:topRightRadius="5dp"
+                android:bottomRightRadius="5dp"></corners>
+        </shape>
+    </item>
+</selector>

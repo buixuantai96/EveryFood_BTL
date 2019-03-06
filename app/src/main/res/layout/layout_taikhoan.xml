@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundTrangChu"
+    >
+
+    <include layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2e2d2d"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageAvatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="Việt Dũng Lê"
+            android:textColor="@color/colorwhite"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#2e2d2d"
+            android:textAllCaps="false"
+            android:text="Xem hoạt động >"
+            android:textColor="@color/colorwhite"
+            android:layout_gravity="center"
+            android:layout_marginLeft="90dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorBackgroundTrangChu"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/colorwhite"
+                android:drawableLeft="@drawable/credit_card_xanhhoidam"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/more_than_grey_dam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Thanh toán ngay"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="#545454" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorBackgroundTrangChu"></View>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/colorwhite"
+                android:drawableLeft="@drawable/lichsumuahang_xanhhoidam"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/more_than_grey_dam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Lịch sử đơn hàng"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="#545454" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorBackgroundTrangChu"></View>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/colorwhite"
+                android:drawableLeft="@drawable/hoadon_xanhhoidam"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/more_than_grey_dam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Hóa đơn"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="#545454" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorBackgroundTrangChu"></View>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/colorwhite"
+                android:drawableLeft="@drawable/tienthuong_xanhhoidam"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/more_than_grey_dam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Tiền thưởng"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="#545454" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/colorwhite"
+                android:drawableLeft="@drawable/add_friend_xanhlacay"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/more_than_grey_dam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Mời bạn bè"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="#545454" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorBackgroundTrangChu"></View>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/colorwhite"
+                android:drawableLeft="@drawable/mail_xanhlacay"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/more_than_grey_dam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Góp ý"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="#545454" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnDangXuat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/colorwhite"
+                android:drawableLeft="@drawable/shutdown_grey_dam"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/more_than_grey_dam"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Đăng xuất"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="#545454" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

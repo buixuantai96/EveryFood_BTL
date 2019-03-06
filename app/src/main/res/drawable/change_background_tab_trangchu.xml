@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    - 2 trạng thái của RadioButton là được chọn, và không được chọn
+    => Cần phải có 2 item, tương đương với 2 kiểu Drawable khác nhau
+    tương ứng với các trạng thái của 1 RadioButton -->
+
+    <!-- - Thay đổi màu Background của RadioButton khi thay đổi sang các
+    trạng th check hoặc un-check tương ứng -->
+
+    <!--
+    - Tượng trưng cho trạng thái RadioButton được Pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorBackgroundTrangChu" />
+        </shape>
+    </item>
+
+    <!--
+    - Tượng trưng cho trạng thái RadioButton mặc định -->
+    <item>
+        <shape android:shape="rectangle"
+
+            >
+            <solid android:color="@color/colorwhite" />
+        </shape>
+    </item>
+</selector>

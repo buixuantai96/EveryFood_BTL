@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1008419292538",
+    "firebase_url": "https://everyfood-65dc1.firebaseio.com",
+    "project_id": "everyfood-65dc1",
+    "storage_bucket": "everyfood-65dc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008419292538:android:c89c76c2ef1d0c89",
+        "android_client_info": {
+          "package_name": "vn.co.bpass.everyfood_btl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008419292538-1i6gpnfmh5lt4v4f907mtbglmrdritt3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.co.bpass.everyfood_btl",
+            "certificate_hash": "6e4198803b3a98f8caef99787ff3df0ffb97c9ef"
+          }
+        },
+        {
+          "client_id": "1008419292538-19ti2u5i4o9edr34j5di1aeglfc1aneh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApvL3kNXQw-aUjdaxEDlVQ7fSwrAfjpKs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008419292538-19ti2u5i4o9edr34j5di1aeglfc1aneh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

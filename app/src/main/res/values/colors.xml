@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#f50012</color>
+    <color name="colorAccent">#CCC</color>
+    <color name="transparentBackgroundDangNhap">#66000000</color>
+    <color name="colorFacebook">#189aca</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBackgroundTrangChu">#e2e2e2</color>
+    <color name="dangmocua">#06ef48</color>
+    <color name="transparentWhite">#CCFFFFFF</color>
+    <color name="colorwhite">#FFF</color>
+    <color name="colorDaNguoi">#FFF3E0</color>
+    <color name="colorXamNhat">#FAFAFA</color>
+    <color name="colorXamDenNhat">#2d2d2f</color>
+</resources>

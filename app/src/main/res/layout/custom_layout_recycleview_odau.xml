@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardViewOdau"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- LinearLayout Horizontal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:id="@+id/txtDiemTrungBinhQuanAn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="0"
+                android:gravity="center"
+                android:background="@drawable/background_circle"
+                android:textColor="@color/colorwhite"
+                android:layout_margin="5dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gogi House"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:id="@+id/txtTenQuanAnOdau" />
+
+                <TextView
+                    android:id="@+id/txtDiaChiQuanAnOdau"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="36 Bà Triệu, quận Hoàn Kiếm"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtKhoangCachQuanAnOdau"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="6.5 km"
+                android:gravity="bottom"
+                />
+        </LinearLayout>
+        <!-- end LinearLayout Horizontal -->
+
+        <ImageView
+            android:id="@+id/imageHinhQuanAnOdau"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/quanan_test"
+            android:scaleType="fitXY"
+            />
+
+        <Button
+            android:id="@+id/btnDatMonOdau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/datmon"
+            android:background="@drawable/button_radius_5dp"
+            android:textColor="@color/colorwhite"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/ship1"
+            android:padding="5dp"
+            android:visibility="gone"
+            />
+
+        <!-- LinearLayout Horizontal -->
+        <LinearLayout
+            android:id="@+id/containerBinhLuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:visibility="gone"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageUser"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtTieuDeBinhLuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txtNoiDungBinhLuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtChamDiemBinhLuan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                 />
+        </LinearLayout>
+        <!-- end LinearLayout Horizontal -->
+
+        <!-- LinearLayout Horizontal -->
+        <LinearLayout
+            android:id="@+id/containerBinhLuan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:visibility="gone"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageUser2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtTieuDeBinhLuan2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtNoiDungBinhLuan2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtChamDiemBinhLuan2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+        <!-- end LinearLayout Horizontal -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            >
+
+            <TextView
+                android:id="@+id/txtTongBinhLuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="152"
+                android:drawableLeft="@drawable/insert_comment_black"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtTongHinhAnhBinhLuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:drawableLeft="@drawable/photo_camera_black"
+                android:gravity="center"
+                android:drawablePadding="5dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

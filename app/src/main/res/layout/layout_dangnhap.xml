@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparentBackgroundDangNhap"
+
+        android:paddingTop="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/foodytext"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center"
+             />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:ems="10"
+            android:id="@+id/edEmailDN"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorwhite"
+            android:textColor="@color/colorwhite"
+            android:textColorHint="@color/colorwhite"
+            android:drawableLeft="@drawable/username"
+            android:drawablePadding="10dp"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/matkhau"
+            android:ems="10"
+            android:id="@+id/edPasswordDN"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorwhite"
+            android:textColor="@color/colorwhite"
+            android:textColorHint="@color/colorwhite"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dangnhap"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+
+            android:drawableTint="@color/colorPrimaryDark"
+            android:background="@drawable/radius_button"
+            android:drawablePadding="10dp"
+            android:textColor="@color/colorwhite"
+
+            android:id="@+id/btnDangNhap" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorwhite"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp"
+                >
+
+            </View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hoac"
+                android:textColor="@color/colorwhite"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorwhite"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                ></View>
+
+        </LinearLayout>
+
+        <!--
+        - Không sử dụng Signin Button mặc định của Google cung cấp, bởi vì
+        muốn thay đổi text của nó, thì phải thực hiện trong Java Code -->
+        <!--<com.google.android.gms.common.SignInButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+        </com.google.android.gms.common.SignInButton> -->
+
+
+        <Button
+            android:id="@+id/btnDangNhapFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorFacebook"
+            android:drawableLeft="@drawable/icon_facebook"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorwhite"
+            android:text="@string/dangnhapfacebook"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/icon_google_1"
+            android:paddingLeft="10dp"
+
+            android:layout_marginTop="10dp"
+            android:text="@string/dangnhapgoogle"
+            android:textAllCaps="false"
+            android:textColor="@color/colorwhite"
+            android:id="@+id/btnDangNhapGoogle"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            >
+
+            <TextView
+                android:text="@string/quenmatkhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtQuenMatKhau"
+                android:layout_weight="1"
+                android:textColor="@color/colorwhite"
+                />
+
+            <TextView
+                android:text="@string/dangkymoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDangKyMoi"
+                android:layout_weight="1"
+                android:textColor="@color/colorwhite"
+                android:textAlignment="textEnd"
+                android:layout_gravity="end"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
