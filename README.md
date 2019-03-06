@@ -1,1 +1,1 @@
-# EveryFood_BTL
+# EveryFood_BTL -  Foody Clone using Firebase
